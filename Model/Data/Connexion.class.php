@@ -1,11 +1,11 @@
 <?php
 
-//Faire un require de database.php
+require_once('../../Config/database.php');
 
 /**
  * 
  * @author P@piHack3R
- * @since  06/19
+ * @since 25/06/19
  * @version 1.0.0
  * 
  * Classe permettant d'établir une connexion à la BD.

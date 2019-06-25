@@ -3,7 +3,8 @@
 /**
  * 
  * @author P@piHack3R
- * @since 
+ * @since 25/06/19
+ * @version 1.0.0
  * 
  * Je définis ici les chemins vers les ressources dont j'aurais besoin.
  * 

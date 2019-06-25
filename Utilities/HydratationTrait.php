@@ -3,9 +3,10 @@
 /**
  * 
  * @author P@piHack3R
- * @since 
+ * @since 25/06/19
+ * @version 1.0.0
  * 
- * Je définis ici un trait contenant une fonction permettant l'hydratation d'un objet
+ * Je définis ici un trait contenant une méthode permettant l'hydratation d'un objet
  */
 
 trait HydratationTrait 

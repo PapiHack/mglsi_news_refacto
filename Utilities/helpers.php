@@ -5,7 +5,8 @@ require_once('../Config/path.php');
 /**
  * 
  * @author P@piHack3R
- * @since 
+ * @since 25/06/19
+ * @version 1.0.0
  * 
  * Je définis ici quelques helpers.
  * 
