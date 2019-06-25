@@ -1,7 +1,5 @@
 <?php
 
-require_once('../Config/path.php');
-
 /**
  * 
  * @author P@piHack3R
@@ -21,5 +19,5 @@ require_once('../Config/path.php');
  */
 function asset($file)
 {
-    return ASSETSPATH.'/'.$file;
+    return '../public/assets/'.$file;
 }

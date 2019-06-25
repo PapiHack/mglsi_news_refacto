@@ -1,6 +1,6 @@
 <?php
 
-require_once('../../Utilities/HydratationTrait.php');
+require_once('../Utilities/HydratationTrait.php');
 
 /**
  * 
@@ -60,7 +60,7 @@ class Article
         return $this->dateCreation;
     }
 
-    public function setDateCreation(DateTime $date)
+    public function setDateCreation($date)
     {
         $this->dateCreation = $date;
     }
@@ -70,7 +70,7 @@ class Article
         return $this->dateModification;
     }
 
-    public function setDateModification(DateTime $date)
+    public function setDateModification($date)
     {
         $this->dateModification = $date;
     }
