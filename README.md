@@ -11,7 +11,7 @@ afin d'accentuer l'organisation du projet.
 
 Ce repertoire contient comme son nom l'indique toute la configuration de l'app.
 Le fichier `database.php` contiendra les paramètres de connexion à votre BD.
-Le fichier `autoloader.php` permet le chargement automatique des classes lors de leurs instanciations (pas besoin de `require` ou `include`).
+Le fichier `autoloader.php` permet le chargement automatique ou `autoloading` des classes lors de leurs instanciations (pas besoin de `require` ou `include`).
 
 - Public  
 
