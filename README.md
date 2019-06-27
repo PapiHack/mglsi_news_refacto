@@ -25,13 +25,13 @@ Contient un fichier nommé `helpers.php` contenant des fonctions utilitaires (`h
 - Model
 
 Ce dossier représente la couche modèle au niveau du pattern `MVC` comme son nom l'indique.
-Il a été découpé en sous couche à savoir :  
+Il a été découpé en sous-couches à savoir :  
 
     - Entity
     Contenant les entités ou objets métier.
 
     - Manager
-    Contenant les `DAO` de chaque entité.
+    Contenant les DAO de chaque entité.
 
     - Data
     Contenant une classe représentant la connexion à votre BD. 
