@@ -17,3 +17,21 @@ Le fichier `autoloader.php` permet le chargement automatique ou `autoloading` de
 
 C'est ce dossier que vous devriez faire pointer votre serveur web. Il contient les ressources accessibles publiquement, c'est à dire tout ce qui est fichier statique (css, js, images, etc).
 Il contient également un `index.php` faisant office de `FrontController`.
+
+- Utilities
+
+Contient un fichier nommé `helpers.php` contenant des fonctions utilitaires (`helpers`) et `HydratationTrait.php` où je définis une méthode permettant l'hydratation de n'importe quel objet.
+
+- Model
+
+Ce dossier représente la couche modèle au niveau du pattern `MVC` comme son nom l'indique.
+Il a été découpé en sous couche à savoir :  
+
+    - Entity
+    Contenant les entités ou objets métier.
+
+    - Manager
+    Contenant les `DAO` de chaque entité.
+
+    - Data
+    Contenant une classe représentant la connexion à votre BD. 
