@@ -45,9 +45,4 @@ class BlogController
         $article = $this->articleManager->get($_GET['id']);
         require_once('../Views/blog/article.php');
     }
-
-    public function pageNotFound() 
-    {
-        require_once('../Views/blog/404.php');
-    }
 }

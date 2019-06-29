@@ -8,6 +8,12 @@
  * 
  */
 
+ /**
+  * 
+  * Renseignez les paramètres de connexion à votre BD ici
+
+  */
+
 const DB_NAME = 'mglsi_news';
 const DB_USERNAME = 'root';
 const DB_PASSWORD = null;
